@@ -1,0 +1,20 @@
+# Node modules
+/node_modules/
+
+# Logs
+*.log
+
+# Dossier de production
+/dist
+
+# Dossier de cache
+/.cache
+
+# Fichiers de configuration spécifiques à l'IDE
+.vscode/
+.idea/
+
+# Fichiers temporaires d'éditeur
+*.swp
+*.swo
+

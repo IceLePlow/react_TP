@@ -1,0 +1,12 @@
+/* Effet de survol avec bordure bleue */
+.card-hover {
+    transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
+    border: 1px solid transparent;
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.03); /* Légère mise en avant */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Ombre bleu clair */
+    border: 1px solid #007bff; /* Bordure bleue */
+  }
+  
